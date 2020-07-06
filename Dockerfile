@@ -1,4 +1,4 @@
-FROM ubuntu:groovy
+FROM ubuntu:eoan
 
 LABEL maintainer="Josh Williams <jdubz@dubzland.net>"
 
