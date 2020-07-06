@@ -1,4 +1,4 @@
-FROM ubuntu:groovy
+FROM ubuntu:xenial
 
 LABEL maintainer="Josh Williams <jdubz@dubzland.net>"
 
