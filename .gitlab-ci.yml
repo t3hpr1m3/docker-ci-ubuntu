@@ -18,7 +18,7 @@ build:
       docker build
       --pull
       --build-arg BUILDKIT_INLINE_CACHE=1
-      --cache-from $CI_REGISTRY_IMAGE:focal
+      --cache-from $CI_REGISTRY_IMAGE:eoan
       --tag $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA
       .
     - docker push $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA
